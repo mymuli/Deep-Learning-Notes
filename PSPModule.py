@@ -1,3 +1,8 @@
+import torch
+from torch import nn
+from torch.nn import functional as F
+
+
 class PSPModule(nn.Module):
     # (1, 2, 3, 6)
     def __init__(self, sizes=(1, 3, 6, 8), dimension=2):
