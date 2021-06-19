@@ -1,0 +1,8 @@
+
+
+
+x_padding = torch.zeros([16, 512, 15, 15],dtype=torch.float).cuda()   # padding=0
+x_padding[:,:,1:,1:,] =feature   # [16,512,14,14]
+print("x_padding: ", x_padding[1,1,:,:])
+
+
