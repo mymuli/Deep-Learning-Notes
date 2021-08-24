@@ -9,6 +9,7 @@ import pdb
 
 # ===================
 #     RGA Module
+# RGA空间注意力模块(薄片与通道特征图做矩阵乘法)
 # ===================
 
 class RGA_Module(nn.Module):
